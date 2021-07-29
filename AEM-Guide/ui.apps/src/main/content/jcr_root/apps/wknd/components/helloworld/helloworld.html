@@ -12,7 +12,48 @@
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
 */-->
+
+
+
+<!-- Collegare il file .css
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientlib.all @ categories='cq.authoring.dialog'}"/>
+-->
+
 <p data-sly-test="${properties.text}">Text property: ${properties.text}</p>
+
+<!--<p data-sly-test="${properties.title}">Title property: ${properties.text}</p>-->
+
+
+   <h1 class ="title">The Wknd</h1>
+   <h1 class ="title"> Welcome to ${currentPage.title} </h1>
+
+   <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ex? </p>
+
+    <div>
+        <h2>Welcome!</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quasi cum soluta optio velit
+           aperiam, consequuntur eveniet sapiente corporis autem? Odit alias non voluptatem dolor in nulla omnis, 
+           laboriosam maiores.
+        </p>
+
+        <img class = "dimension" src="https://images.pexels.com/photos/8350215/pexels-photo-8350215.jpeg?cs=srgb&dl=pexels-madison-inouye-8350215.jpg&fm=jpg" width= "300px" height= "300px" alt="img">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quasi cum soluta optio velit
+            aperiam, consequuntur eveniet sapiente corporis autem? Odit alias non voluptatem dolor in nulla omnis, 
+            laboriosam maiores.
+        </p>
+
+    </div>
+
+
+<!--
+    
+    <p class="text"> ${properties.text}</p>
+
+-->
+    
 
 
